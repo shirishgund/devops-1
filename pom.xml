@@ -3,9 +3,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.edurekademo.tutorial</groupId>
-    <artifactId>addressbook</artifactId>
+    <artifactId>addressbook_latest</artifactId>
     <packaging>war</packaging>
-    <version>2.11</version>
+    <version>2.12</version>
     <name>Vaadin Addressbook example</name>
 
     <properties>
@@ -495,7 +495,12 @@
     <repository>
         <id>central</id>
         <name>Lenovo-PC-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
+        <url>http://localhost:8081/artifactory/testing</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Lenovo-PC-snapshots</name>
+        <url>http://localhost:8081/artifactory/testing</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
